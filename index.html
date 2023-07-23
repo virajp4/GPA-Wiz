@@ -22,11 +22,10 @@
     </nav>
 
     <div class="content">
-
         <div class="subject-list">
             <div class="subject">
                 <label class="sub-name">Subject 1:</label>
-                <select name="grade form-select" id="grade">
+                <select name="grade" id="grade">
                     <option value="O">O</option>
                     <option value="A+">A+</option>
                     <option value="A">A</option>
@@ -35,7 +34,7 @@
                     <option value="C">C</option>
                     <option value="F">F</option>
                 </select>
-                <select name="credits form-select" id="credits">
+                <select name="credits" id="credits">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -47,7 +46,7 @@
             </div>
             <div class="subject">
                 <label class="sub-name">Subject 2:</label>
-                <select name="grade form-select" id="grade">
+                <select name="grade" id="grade">
                     <option value="O">O</option>
                     <option value="A+">A+</option>
                     <option value="A">A</option>
@@ -56,7 +55,7 @@
                     <option value="C">C</option>
                     <option value="F">F</option>
                 </select>
-                <select name="credits form-select" id="credits">
+                <select name="credits" id="credits">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -68,7 +67,7 @@
             </div>
             <div class="subject">
                 <label class="sub-name">Subject 3:</label>
-                <select name="grade form-select" id="grade">
+                <select name="grade" id="grade">
                     <option value="O">O</option>
                     <option value="A+">A+</option>
                     <option value="A">A</option>
@@ -77,7 +76,7 @@
                     <option value="C">C</option>
                     <option value="F">F</option>
                 </select>
-                <select name="credits form-select" id="credits">
+                <select name="credits" id="credits">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -89,7 +88,7 @@
             </div>
             <div class="subject">
                 <label class="sub-name">Subject 4:</label>
-                <select name="grade form-select" id="grade">
+                <select name="grade" id="grade">
                     <option value="O">O</option>
                     <option value="A+">A+</option>
                     <option value="A">A</option>
@@ -98,7 +97,7 @@
                     <option value="C">C</option>
                     <option value="F">F</option>
                 </select>
-                <select name="credits form-select" id="credits">
+                <select name="credits" id="credits">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -110,7 +109,7 @@
             </div>
             <div class="subject">
                 <label class="sub-name">Subject 5:</label>
-                <select name="grade form-select" id="grade">
+                <select name="grade" id="grade">
                     <option value="O">O</option>
                     <option value="A+">A+</option>
                     <option value="A">A</option>
@@ -119,7 +118,7 @@
                     <option value="C">C</option>
                     <option value="F">F</option>
                 </select>
-                <select name="credits form-select" id="credits">
+                <select name="credits " id="credits">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -138,13 +137,20 @@
             </div>
             <div class="func-btn text-center">
                 <button class="btn calc-btn btn2 mx-1" id="calculate">Calculate</button>
-                <button class="btn reset-btn btn3 mx-1" id="reset">Reset</button>
             </div>
         </div>
-        <footer>
-            Made with ❤️ by Viraj
-        </footer>
-    </div>
-</body>
+
+        <div class="result">
+            <div>
+                <h2 style="display: inline;">Calculated GPA:</h2>
+                <h1 id="gpa" style="display: inline;">0.00</h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2>Made with ❤️ by Viraj</h2>
+        </div>
+        <script src="script.js"></script>
+        </body>
 
 </html>

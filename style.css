@@ -146,15 +146,16 @@ body {
 
 .text1 {
     color: white;
-    font-size: 30px;
+    font-size: 2.4rem;
+    padding-right: 1px;
 }
 
 .text2 {
+    font-size: 2.4rem;
     padding: 0 2px;
     background-color: #f77f00;
     border-radius: 7%;
     font-weight: bold;
-    font-size: 30px;
     color: black;
 }
 
@@ -163,16 +164,21 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    ;
 }
 
 .subject-list {
     background-color: #001427;
-    width: 60%;
+    width: 70%;
     text-align: center;
     border: 5px #004e89 solid;
     border-radius: 10px;
     box-shadow: 0 0 25px #023e7d;
+}
+
+@media (max-width: 750px) {
+    .subject-list {
+        width: 80%;
+    }
 }
 
 .subject {
@@ -182,15 +188,26 @@ body {
 .sub-name {
     color: white;
     padding-right: 1%;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 #grade {
-    width: 3.2rem;
+    font-size: 1.3rem;
+    width: 3.3rem;
 }
 
 #credits {
-    width: 3.2rem;
+    font-size: 1.3rem;
+    width: 3.3rem;
+}
+
+@media (max-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .subject-btn {
@@ -207,6 +224,7 @@ body {
     background-color: #3c096c;
     border: 2px #9d4edd solid;
     box-shadow: 0 0 15px #5a189a;
+    font-size: 1.3rem;
 }
 
 .btn2 {
@@ -215,36 +233,26 @@ body {
     background-color: #1b4332;
     border: 2px #52b788 solid;
     box-shadow: 0 0 15px #006400;
+    font-size: 1.3rem;
 }
 
-.btn3 {
+.footer {
+    color: #f77f00;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.result {
+    font-size: 2.3rem;
     margin: 10px;
     color: white;
     background-color: #370617;
-    border: 2px #dc2f02 solid;
-    box-shadow: 0 0 15px #9d0208;
+    box-shadow: 0 0 15px #e63946;
+    border-radius: 15px;
+    padding: 7px;
 }
 
-@media (max-width: 750px) {
-    .subject-list {
-        width: 80%;
-    }
-}
-
-@media (max-width: 600px) {
-    .buttons {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-}
-
-footer {
-    color: #f77f00;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.result-text {
+    color: #f77f00
 }
