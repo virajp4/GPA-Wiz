@@ -185,10 +185,14 @@ body {
     padding: 10px;
 }
 
-.sub-name {
+.semester {
+    padding: 7px;
+}
+
+.sub-name, .sem-name {
     color: white;
     padding-right: 1%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 #grade {
@@ -199,6 +203,13 @@ body {
 #credits {
     font-size: 1.3rem;
     width: 3.3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -233,6 +244,15 @@ body {
     background-color: #1b4332;
     border: 2px #52b788 solid;
     box-shadow: 0 0 15px #006400;
+    font-size: 1.3rem;
+}
+
+.btn3 {
+    margin: 10px;
+    color: white;
+    background-color: #581845;
+    border: 2px #c70039 solid;
+    box-shadow: 0 0 15px #8b0000;
     font-size: 1.3rem;
 }
 
